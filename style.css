@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e9f0f5;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  color: #003366;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.centered-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+img {
+  margin: 10px;
+  vertical-align: middle;
+}
